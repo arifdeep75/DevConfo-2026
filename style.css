@@ -251,3 +251,82 @@ header button:hover{
     color: white;
     border: 1px solid black;
 }
+
+footer {
+    background-color: #0D1B2A;
+    color:#9CA3AF;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+
+.footer-logo img {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.footer-logo p {
+    color: #9CA3AF;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.footer-links h3,
+.footer-social h3 {
+    color:#9CA3AF;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color:#9CA3AF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #2563EB;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    background-color: #1E293B;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #2563EB;
+}
+
+
